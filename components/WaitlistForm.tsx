@@ -50,7 +50,7 @@ export function WaitlistForm() {
     <Dialog>
       <DialogTrigger asChild>
         {/* <Button variant='outline'>Edit Profile</Button> */}
-        <Button className='mt-6 inline-flex items-center gap-2 bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-700 rounded-full px-6 py-6 text-[#4045e1] dark:text-white hover:bg-blue-50 dark:hover:bg-gray-700 transition cursor-pointer'>
+        <Button className='mt-6 inline-flex items-center gap-2 bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-700 rounded-full px-6 py-6 text-[#0A2050] dark:text-white hover:bg-blue-50 dark:hover:bg-gray-700 transition cursor-pointer'>
           <div className='flex -space-x-2'>
             <Image
               src='/icons/chat/avatars/image4.png'
