@@ -82,7 +82,10 @@ export async function POST(req: Request) {
     }
 
     // Only send email if this is a new signup (status 201)
-    if (brevoContactResponse.status === 201) {
+    if (
+      brevoContactResponse.status === 201 ||
+      brevoContactResponse.status === 200
+    ) {
       const transactionalEmailResponse = await fetch(
         'https://api.brevo.com/v3/smtp/email',
         {

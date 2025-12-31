@@ -4,7 +4,7 @@ import { WaitlistForm } from './WaitlistForm';
 
 const Hero = () => {
   return (
-    <main className='h-[90vh] bg-gradient-to-tr from-[#f7f8fc] to-[#e6f5ef] dark:from-gray-900 dark:to-gray-800 flex flex-col items-center justify-center px-4 pt-10 sm:pt-20'>
+    <main className='h-[60vh] bg-gradient-to-tr from-[#f7f8fc] to-[#e6f5ef] dark:from-gray-900 dark:to-gray-800 flex flex-col items-center justify-center px-4 pt-10 pb-10 sm:pt-20'>
       <h1 className='text-3xl sm:text-5xl font-bold text-center text-gray-900 dark:text-white'>
         Something Awesome <br /> is Coming!
       </h1>
@@ -15,7 +15,7 @@ const Hero = () => {
 
       <WaitlistForm />
 
-      <div className='relative flex justify-center items-end w-full max-w-6xl flex-1 mt-10 md:mt-12'>
+      <div className='relative hidden justify-center items-end w-full max-w-6xl flex-1 mt-10 md:mt-12'>
         {/* Background image containers with aspect ratio preservation */}
         <div className='absolute -left-4 top-0 w-[300px] sm:w-[380px] sm:h-[180px]'>
           <Image
