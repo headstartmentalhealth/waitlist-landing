@@ -5,6 +5,8 @@ export async function POST(req: Request) {
   try {
     const { email, name } = await req.json();
 
+    console.log(process.env.BREVO_API_KEY);
+
     // Validate email
     if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       return NextResponse.json(
@@ -82,10 +84,7 @@ export async function POST(req: Request) {
     }
 
     // Only send email if this is a new signup (status 201)
-    if (
-      brevoContactResponse.status === 201 ||
-      brevoContactResponse.status === 200
-    ) {
+    if (brevoContactResponse.status === 201) {
       const transactionalEmailResponse = await fetch(
         'https://api.brevo.com/v3/smtp/email',
         {
@@ -97,8 +96,8 @@ export async function POST(req: Request) {
           },
           body: JSON.stringify({
             sender: {
-              name: 'Doexcess',
-              email: 'info@doexcess.com',
+              name: 'HeadStart MH',
+              email: 'headstartmentalhealth@gmail.com',
             },
             to: [{ email, name: name || '' }],
             subject: 'Welcome to the Waitlist 🎉',
@@ -107,6 +106,8 @@ export async function POST(req: Request) {
           }),
         }
       );
+
+      console.log(transactionalEmailResponse);
 
       if (!transactionalEmailResponse.ok) {
         const errorData = await transactionalEmailResponse.json();
@@ -120,7 +121,7 @@ export async function POST(req: Request) {
     }
 
     return NextResponse.json({
-      message: 'You have been added to our waitlist!',
+      message: 'You have been added to our waitlist!!!!',
     });
   } catch (error: any) {
     console.error('Error:', error);

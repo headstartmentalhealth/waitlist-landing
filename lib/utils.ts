@@ -166,7 +166,7 @@ export const htmlContent = (name: string) => `
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Doexcess</title>
+    <title>Welcome to HeadStart</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gilroy:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -234,7 +234,7 @@ export const htmlContent = (name: string) => `
         
         .button {
             display: inline-block;
-            background-color: #4045e1;
+            background-color: #13274F;
             color: white !important;
             text-decoration: none;
             padding: 14px 28px;
@@ -287,20 +287,20 @@ export const htmlContent = (name: string) => `
             <div class="content">
                 <div>
                   <!-- Replace with your actual logo URL -->
-                  <img src="https://doexcess.com/logo.png" alt="Doexcess" class="logo" width="180" style="max-width:180px; margin-bottom:25px;">
-                  <h2 style="font-family:'Gilroy', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-weight:700;">Welcome to Doexcess!</h2>
+                  <img src="https://res.cloudinary.com/dh7tf3d4x/image/upload/v1767290118/HeadStart_Logo_Full_M_ooqnvt.png" alt="HeadStart" class="logo" width="180" style="max-width:180px; margin-bottom:25px;">
+                  <h2 style="font-family:'DM Sans'; font-weight:700;">Welcome to HeadStart!</h2>
                 </div>
 
                 <p style="margin:0 0 20px 0;">Hi ${name || 'there'},</p>
               
-                <p style="margin:0 0 20px 0;">We're excited to have you as part of the Doexcess community. You're now on our exclusive waitlist and will be among the first to experience our platform.</p>
+                <p style="margin:0 0 20px 0;">We're excited to have you as part of the HeadStart community. You're now on our exclusive waitlist and will be among the first to experience our platform.</p>
                 
-                <div style="background-color:#f0f2ff; padding:20px; border-radius:6px; margin:20px 0; border-left:4px solid #4045e1;">
-                    <h2 style="font-family:'Gilroy', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; color:#4045e1; font-weight:600; font-size:22px; margin-top:0; margin-bottom:15px;">What's Next?</h2>
+                <div style="background-color:#f0f2ff; padding:20px; border-radius:6px; margin:20px 0; border-left:4px solid #13274F;">
+                    <h2 style="font-family:'DM Sans'; color:#13274F; font-weight:600; font-size:22px; margin-top:0; margin-bottom:15px;">What's Next?</h2>
                     <ul style="padding-left:20px; margin:0;">
-                        <li style="margin-bottom:10px;"><strong>Early access</strong> to our platform before public launch</li>
-                        <li style="margin-bottom:10px;"><strong>Exclusive updates</strong> about our development progress</li>
-                        <li style="margin-bottom:10px;"><strong>Special offers</strong> reserved for waitlist members</li>
+                        <li style="margin-bottom:10px;font-family:'DM Sans';"><strong>Early access</strong> to our platform before public launch</li>
+                        <li style="margin-bottom:10px;font-family:'DM Sans';"><strong>Exclusive updates</strong> about our development progress</li>
+                        <li style="margin-bottom:10px;font-family:'DM Sans';"><strong>Special offers</strong> reserved for waitlist members</li>
                     </ul>
                 </div>
                 
@@ -308,31 +308,31 @@ export const htmlContent = (name: string) => `
                 
                 <div style="text-align:center;">
                     <!--[if mso]>
-                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://doexcess.com" style="height:44px;v-text-anchor:middle;width:200px;" arcsize="10%" stroke="f" fillcolor="#4045e1">
+                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://headstartmentalhealth.com" style="height:44px;v-text-anchor:middle;width:200px;" arcsize="10%" stroke="f" fillcolor="#13274F">
                         <w:anchorlock/>
-                        <center style="color:#ffffff;font-family:sans-serif;font-size:16px;font-weight:bold;">Explore Doexcess</center>
+                        <center style="color:#ffffff;font-family:'DM Sans';font-size:16px;font-weight:bold;">Explore HeadStart</center>
                     </v:roundrect>
                     <![endif]-->
-                    <a href="https://doexcess.com" class="button" style="font-family:'Gilroy', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">Explore Doexcess</a>
+                    <a href="https://headstartmentalhealth.com" class="button" style="font-family:'DM Sans';">Explore HeadStart</a>
                 </div>
                 
                 <div class="social-icons" style="margin:30px 0; text-align:center;">
-                    <a href="https://x.com/doexcess" class="social-icon" style="margin:0 10px; display:inline-block; color:#4045e1; text-decoration:none;">X</a>
-                    <a href="https://linkedin.com/company/doexcess" class="social-icon" style="margin:0 10px; display:inline-block; color:#4045e1; text-decoration:none;">LinkedIn</a>
-                    <a href="https://instagram.com/doexcess" class="social-icon" style="margin:0 10px; display:inline-block; color:#4045e1; text-decoration:none;">Instagram</a>
-                    <a href="https://tiktok.com/@doexcess" class="social-icon" style="margin:0 10px; display:inline-block; color:#4045e1; text-decoration:none;">Tiktok</a>
+                    <a href="https://x.com/doexcess" class="social-icon" style="margin:0 10px; display:inline-block; color:#13274F; text-decoration:none;">X</a>
+                    <a href="https://linkedin.com/company/doexcess" class="social-icon" style="margin:0 10px; display:inline-block; color:#13274F; text-decoration:none;">LinkedIn</a>
+                    <a href="https://instagram.com/doexcess" class="social-icon" style="margin:0 10px; display:inline-block; color:#13274F; text-decoration:none;">Instagram</a>
+                    <a href="https://tiktok.com/@doexcess" class="social-icon" style="margin:0 10px; display:inline-block; color:#13274F; text-decoration:none;">Tiktok</a>
                 </div>
                 
                 <div class="footer" style="text-align:center; margin-top:40px; color:#777777; font-size:14px;">
                     <p style="margin:0 0 5px 0;">Best regards,</p>
-                    <p style="margin:0 0 20px 0; font-weight:600;">The Doexcess Team</p>
+                    <p style="margin:0 0 20px 0; font-weight:600;">The HeadStart Team</p>
                     <p style="margin:20px 0 0 0;">
-                        <a href="https://doexcess.com" style="color:#4045e1; text-decoration:none;">doexcess.com</a> | 
-                        <a href="mailto:hello@doexcess.com" style="color:#4045e1; text-decoration:none;">hello@doexcess.com</a>
+                        <a href="https://headstartmentalhealth.com" style="color:#13274F; text-decoration:none;">headstartmentalhealth.com</a> | 
+                        <a href="mailto:headstartmentalhealth@gmail.com" style="color:#13274F; text-decoration:none;">headstartmentalhealth@gmail.com</a>
                     </p>
                     <p style="margin:15px 0 0 0; font-size:12px;">
-                        © ${new Date().getFullYear()} Doexcess. All rights reserved.<br>
-                        <a href="https://doexcess.com/unsubscribe" style="color:#777; text-decoration:none;">Unsubscribe</a>
+                        © ${new Date().getFullYear()} HeadStart Connect. All rights reserved.<br>
+                        <a href="https://headstartmentalhealth.com/unsubscribe" style="color:#777; text-decoration:none;">Unsubscribe</a>
                     </p>
                 </div>
             </div>

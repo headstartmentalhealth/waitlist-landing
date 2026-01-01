@@ -24,6 +24,8 @@ export async function POST(req: Request) {
       }
     );
 
+    console.log(checkContactResponse);
+
     // If contact exists (status 200), return without sending email
     if (checkContactResponse.status === 200) {
       const contactData = await checkContactResponse.json();
@@ -62,6 +64,8 @@ export async function POST(req: Request) {
       }
     );
 
+    console.log(brevoContactResponse);
+
     // Handle existing contact update
     if (brevoContactResponse.status === 204) {
       await fetch(
@@ -80,6 +84,8 @@ export async function POST(req: Request) {
         }
       );
     }
+
+    console.log(brevoContactResponse);
 
     // Only send email if this is a new signup (status 201)
     if (brevoContactResponse.status === 201) {
@@ -117,7 +123,7 @@ export async function POST(req: Request) {
     }
 
     return NextResponse.json({
-      message: 'You have been added to our waitlist!',
+      message: 'You have been added to our waitlist!!!!',
     });
   } catch (error: any) {
     console.error('Error:', error);
