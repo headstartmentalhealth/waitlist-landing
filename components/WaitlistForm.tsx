@@ -77,8 +77,6 @@ export function WaitlistForm() {
             />
           </div>
           <span className='font-semibold'>Join the Waitlist</span>
-          {/* <span className='text-[#4045e1]'></span> */}
-          {/* <Icon url='/images/arrow.png' width={25} className='text-primary' /> */}
           <LucideSend width={25} className='text-primary' />
         </Button>
       </DialogTrigger>

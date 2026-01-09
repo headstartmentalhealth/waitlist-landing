@@ -55,7 +55,7 @@ const Hero = () => {
         <div className='z-10 w-[200px] sm:w-[240px] sm:h-[320px] relative '>
           <Image
             src='/images/hero.png'
-            alt='Doexcess platform preview'
+            alt='Headstart connect platform preview'
             width={240}
             height={320}
             loading='lazy'

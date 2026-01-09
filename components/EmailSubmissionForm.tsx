@@ -28,29 +28,29 @@ const EmailSubmissionForm = () => {
         <p className='text-xs mt-4'>
           Want to reach us? Contact us on{' '}
           <a
-            href='mailto:hello@headstartmentalhealth.com'
+            href='mailto:hello@headstartconnect.com'
             className='text-[#4045e1] dark:text-white hover:underline'
           >
-            hello@headstartmentalhealth.com
+            headstartconnectmentalhealth.com
           </a>
         </p>
       </form>
       <div className='flex gap-10 justify-center'>
-        <a href='https://linkedin.com/company/headstartMH'>
+        <a href='https://linkedin.com/company/headstartconnect'>
           <Icon
             url='/images/linkedin.png'
             width={25}
             className='dark:invert dark:brightness-0'
           />
         </a>
-        <a href='https://instagram.com/headstartMH'>
+        <a href='https://instagram.com/headstartconnect'>
           <Icon
             url='/images/instagram.png'
             width={25}
             className='dark:invert dark:brightness-0'
           />
         </a>
-        <a href='https://x.com/headstartMH'>
+        <a href='https://x.com/headstartconnect'>
           <Icon
             url='/images/x.png'
             width={25}
@@ -59,8 +59,8 @@ const EmailSubmissionForm = () => {
         </a>
       </div>
       <p className='text-xs mt-4'>
-        Copyright &copy; HeadStart MH {new Date().getFullYear()} | All Rights
-        Reserved
+        Copyright &copy; HeadStart Connect {new Date().getFullYear()} | All
+        Rights Reserved
       </p>
     </div>
   );

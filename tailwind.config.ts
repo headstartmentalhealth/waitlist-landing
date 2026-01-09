@@ -12,6 +12,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
+        dm_sans: ['DM Sans', 'sans-serif'],
         gilroy: ['Gilroy', 'sans-serif'],
         'gilroy bold': ['Gilroy Bold', 'sans-serif'],
       },

@@ -16,7 +16,7 @@ const About = () => {
 
         {/* Heading */}
         <h1 className='text-3xl md:text-4xl font-black text-gray-900 dark:text-white mb-4'>
-          About HeadStart Mental Health
+          About HeadStart Connect
         </h1>
       </div>
       <div className='max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-12'>
@@ -24,9 +24,9 @@ const About = () => {
         <div className='flex-1'>
           {/* Description */}
           <p className='text-gray-600 dark:text-gray-300 mb-8 max-w-xl leading-relaxed'>
-            HeadStart MH is an all-in-one mental wellbeing platform designed to
-            support children, youth, and families through early screening,
-            personalized coping tools, and engaging self-help
+            HeadStart Connect is an all-in-one mental wellbeing platform
+            designed to support children, youth, and families through early
+            screening, personalized coping tools, and engaging self-help
             experiences—accessible, supportive, and stigma-free.
           </p>
 

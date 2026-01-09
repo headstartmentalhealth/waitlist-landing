@@ -1,5 +1,5 @@
 @import 'tailwindcss';
-@import "tw-animate-css";
+@import 'tw-animate-css';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -44,27 +44,13 @@
 }
 
 body {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 h1,
 h2,
 h3 {
   font-family: 'Gilroy Bold', sans-serif;
-}
-
-@font-face {
-  font-family: 'Gilroy';
-  src: url('/font/gilroy/Gilroy-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Gilroy Bold';
-  src: url('/font/gilroy/Gilroy-SemiBold.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
 }
 
 :root {

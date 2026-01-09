@@ -4,34 +4,34 @@ import { ThemeProvider } from '@/components/theme-provider';
 
 export const metadata: Metadata = {
   title: {
-    default: 'HeadStart | Mental Health Support Platform',
-    template: '%s | Mental Health support by HeadStart',
+    default: 'HeadStart Connect | Mental Health Support Platform',
+    template: '%s | Mental Health support by HeadStart Connect',
   },
   description: 'Early mental health support, education, and coping tools',
 
   openGraph: {
-    title: 'HeadStart: Mental Health Support',
+    title: 'HeadStart Connect: Mental Health Support',
     description: 'Early mental health support, education, and coping tools.',
     images: [
       {
-        url: 'https://headstartmentalhealth.com/images/card.png',
+        url: 'https://headstartmentalconnect.com/images/card.png',
         width: 1200,
         height: 630,
-        alt: 'HeadStart Mental Health',
+        alt: 'HeadStart Connect',
       },
     ],
-    url: 'https://www.headstartmentalhealth.com',
+    url: 'https://www.headstartconnect.com',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Mental Health support with HeadStart',
     description: 'Mental Health support with HeadStart',
-    images: 'https://headstartmentalhealth.com/images/card.png',
+    images: 'https://headstartconnect.com/images/card.png',
   },
 
   keywords: ['mental health support'],
 
-  metadataBase: new URL('https://www.headstartmentalhealth.com'),
+  metadataBase: new URL('https://www.headstartconnect.com'),
 };
 
 export default function RootLayout({
@@ -52,17 +52,17 @@ export default function RootLayout({
               '@context': 'https://schema.org',
               '@type': 'Organization',
               name: 'HeadStart',
-              url: 'https://headstartmentalhealth.com',
-              logo: 'https://headstartmentalhealth.com/icons/icon.png',
+              url: 'https://headstartconnect.com',
+              logo: 'https://headstartconnect.com/icons/icon.png',
               sameAs: [
-                'https://twitter.com/headstartmentalhealth',
-                'https://www.linkedin.com/company/headstartmentalhealth',
+                'https://twitter.com/headstartconnect',
+                'https://www.linkedin.com/company/headstartconnect',
               ],
             }),
           }}
         />
       </head>
-      <body className={`font-gilroy bg-white dark:bg-gray-900`}>
+      <body className={`font-dm_sans bg-white dark:bg-gray-900`}>
         <ThemeProvider
           attribute='class'
           defaultTheme='system'
